@@ -102,10 +102,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/intellistream/SAGE-DB-Bench"
-Documentation = "https://github.com/intellistream/SAGE-DB-Bench/blob/main/README.md"
-Repository = "https://github.com/intellistream/SAGE-DB-Bench"
-"Bug Tracker" = "https://github.com/intellistream/SAGE-DB-Bench/issues"
+Homepage = "https://github.com/DataSysResearch/CANDOR-Bench"
+Documentation = "https://github.com/DataSysResearch/CANDOR-Bench/blob/main/README.md"
+Repository = "https://github.com/DataSysResearch/CANDOR-Bench"
+"Bug Tracker" = "https://github.com/DataSysResearch/CANDOR-Bench/issues"
 
 [project.scripts]
 sage-bench = "bench.cli:main"
