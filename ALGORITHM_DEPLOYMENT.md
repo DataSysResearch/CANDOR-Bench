@@ -55,7 +55,7 @@ pip install torch numpy pybind11 PyYAML pandas
 
 ```bash
 # 1. 克隆仓库并初始化 submodules
-git clone https://github.com/intellistream/SAGE-DB-Bench.git
+git clone https://github.com/DataSysResearch/CANDOR-Bench.git
 cd SAGE-DB-Bench
 git submodule update --init --recursive
 
@@ -360,7 +360,7 @@ set -e
 apt-get update && apt-get install -y build-essential cmake libgflags-dev libboost-all-dev
 
 # 克隆并初始化
-git clone --recurse-submodules https://github.com/intellistream/SAGE-DB-Bench.git
+git clone --recurse-submodules https://github.com/DataSysResearch/CANDOR-Bench.git
 cd SAGE-DB-Bench
 
 # 安装 Python 依赖
@@ -412,5 +412,5 @@ git submodule add <repo_url> <folder_name>
 ## 支持
 
 - **文档**: [algorithms_impl/README.md](algorithms_impl/README.md)
-- **Issues**: https://github.com/intellistream/SAGE-DB-Bench/issues
-- **Wiki**: https://github.com/intellistream/SAGE-DB-Bench/wiki
+- **Issues**: https://github.com/DataSysResearch/CANDOR-Bench/issues
+- **Wiki**: https://github.com/DataSysResearch/CANDOR-Bench/wiki
