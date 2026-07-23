@@ -8,7 +8,7 @@
 	branch = main
 [submodule "algorithms_impl/ipdiskann"]
 	path = algorithms_impl/ipdiskann
-	url = https://github.com/intellistream/IP-DiskANN.git
+	url = https://github.com/DataSysResearch/IP-DiskANN.git
 	branch = main
 [submodule "algorithms_impl/plsh"]
 	path = algorithms_impl/plsh
