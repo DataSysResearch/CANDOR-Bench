@@ -1,5 +1,5 @@
 #!/bin/bash
-# SAGE-DB-Bench 自动安装脚本
+# CANDOR-Bench 自动安装脚本
 # 用于快速在Linux/macOS上部署完整环境
 
 set -e  # 遇到错误立即退出
@@ -225,7 +225,7 @@ show_usage() {
     cat << EOF
 
 ${GREEN}═══════════════════════════════════════════════════════════${NC}
-${GREEN}  SAGE-DB-Bench Installation Complete!${NC}
+${GREEN}  CANDOR-Bench Installation Complete!${NC}
 ${GREEN}═══════════════════════════════════════════════════════════${NC}
 
 Next steps:
@@ -248,8 +248,8 @@ Documentation:
   - algorithms_impl/README.md - Algorithm compilation
 
 Need help?
-  - Issues: https://github.com/intellistream/SAGE-DB-Bench/issues
-  - Docs: https://github.com/intellistream/SAGE-DB-Bench
+  - Issues: https://github.com/DataSysResearch/CANDOR-Bench/issues
+  - Docs: https://github.com/DataSysResearch/CANDOR-Bench
 
 ${GREEN}═══════════════════════════════════════════════════════════${NC}
 
@@ -259,7 +259,7 @@ EOF
 # 主函数
 main() {
     echo ""
-    log_info "SAGE-DB-Bench Installation Script"
+    log_info "CANDOR-Bench Installation Script"
     echo ""
     
     # 创建日志目录

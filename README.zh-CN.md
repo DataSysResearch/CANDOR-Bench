@@ -8,7 +8,7 @@
 
 ```bash
 # 克隆仓库（包含 submodules）
-git clone --recursive https://github.com/intellistream/CANDOR-Bench.git
+git clone --recursive https://github.com/DataSysResearch/CANDOR-Bench.git
 cd CANDOR-Bench
 
 # 运行部署脚本
