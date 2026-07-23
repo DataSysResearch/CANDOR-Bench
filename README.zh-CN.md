@@ -86,7 +86,7 @@ DATASETS['mydataset'] = lambda: MyDataset()
 | faiss_HNSW_Optimized | 图索引 | 支持 Gorder 优化的 HNSW |
 | faiss_IVFPQ | 量化 | 倒排文件 + 乘积量化 |
 | diskann | 图索引 | DiskANN |
-| vsag_hnsw | 图索引 | VSAG HNSW |
+| vsag_hnsw | 图索引 | [DataSys 维护的 VSAG 定制版本](https://github.com/DataSysResearch/vasg) |
 
 ### 添加新算法
 

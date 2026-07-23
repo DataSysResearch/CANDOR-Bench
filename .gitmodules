@@ -16,5 +16,5 @@
 	branch = master
 [submodule "algorithms_impl/vsag"]
 	path = algorithms_impl/vsag
-	url = https://github.com/intellistream/vasg.git
+	url = https://github.com/DataSysResearch/vasg.git
 	branch = main

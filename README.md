@@ -109,7 +109,7 @@ DATASETS['mydataset'] = lambda: MyDataset()
 | faiss_HNSW_Optimized | Graph index | HNSW with Gorder optimization |
 | faiss_IVFPQ | Quantization | Inverted file + product quantization |
 | diskann | Graph index | DiskANN |
-| vsag_hnsw | Graph index | VSAG HNSW |
+| vsag_hnsw | Graph index | [DataSys-maintained VSAG derivative](https://github.com/DataSysResearch/vasg) |
 
 ### Add a new algorithm
 
