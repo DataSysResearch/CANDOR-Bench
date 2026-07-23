@@ -1,4 +1,4 @@
-# SAGE-DB-Bench 安装指南
+# CANDOR-Bench 安装指南
 
 本指南提供了多种安装方式，适用于不同的使用场景。
 
@@ -24,8 +24,8 @@
 
 ```bash
 # 1. 克隆仓库（不包含子模块）
-git clone https://github.com/intellistream/SAGE-DB-Bench.git
-cd SAGE-DB-Bench
+git clone --recursive https://github.com/DataSysResearch/CANDOR-Bench.git
+cd CANDOR-Bench
 
 # 2. 安装Python依赖
 pip install -r requirements.txt
@@ -49,8 +49,8 @@ python -m pytest tests/ -v
 
 ```bash
 # 克隆主仓库
-git clone https://github.com/intellistream/SAGE-DB-Bench.git
-cd SAGE-DB-Bench
+git clone --recursive https://github.com/DataSysResearch/CANDOR-Bench.git
+cd CANDOR-Bench
 
 # 初始化并更新所有子模块
 git submodule update --init --recursive
@@ -194,8 +194,8 @@ conda install -c conda-forge faiss-cpu  # 或 faiss-gpu
 pip install gdown
 
 # 克隆仓库
-git clone --recursive https://github.com/intellistream/SAGE-DB-Bench.git
-cd SAGE-DB-Bench
+git clone --recursive https://github.com/DataSysResearch/CANDOR-Bench.git
+cd CANDOR-Bench
 
 # 编译其他算法
 cd algorithms_impl
@@ -393,6 +393,6 @@ python run_experiments.py
 
 ## 🆘 获取帮助
 
-- **Issues**: https://github.com/intellistream/SAGE-DB-Bench/issues
-- **Discussions**: https://github.com/intellistream/SAGE-DB-Bench/discussions
+- **Issues**: https://github.com/DataSysResearch/CANDOR-Bench/issues
+- **Discussions**: https://github.com/DataSysResearch/CANDOR-Bench/discussions
 - **Email**: [维护者邮箱]

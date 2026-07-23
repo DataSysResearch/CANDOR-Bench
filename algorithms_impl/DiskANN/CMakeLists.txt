@@ -177,7 +177,10 @@ else()
     elseif(EXISTS ${MKL_PATH}/libmkl_def.so)
         set(MKL_DEF_SO ${MKL_PATH}/libmkl_def.so)
     else()
-        message(FATAL_ERROR "Despite finding MKL, libmkl_def.so was not found in expected locations.")
+        # oneMKL 2026 no longer ships this internal dispatch library. The
+        # documented static link set below remains sufficient without it.
+        set(MKL_DEF_SO "")
+        message(STATUS "Optional libmkl_def was not found; using the standard oneMKL static link set.")
     endif()
     link_directories(${MKL_PATH})
     include_directories(${MKL_INCLUDE_PATH})

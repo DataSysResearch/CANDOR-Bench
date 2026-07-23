@@ -31,7 +31,7 @@ This repository accompanies the following paper:
 
 ```bash
 # Clone the repo (with submodules)
-git clone --recursive https://github.com/intellistream/CANDOR-Bench.git
+git clone --recursive https://github.com/DataSysResearch/CANDOR-Bench.git
 cd CANDOR-Bench
 
 # Run the deployment script
