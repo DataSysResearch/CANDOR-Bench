@@ -1,3 +1,49 @@
+# BriskSeed research branch
+
+This checkout is the authoritative `BriskSeed` branch of CANDOR-Bench, owned
+by Hongru Gao (`@hongrugao`). It carries a mature StreamSeed/BriskSeed
+implementation and a substantial historical result corpus; it is not an empty
+benchmark proposal and should not be evaluated from CANDOR-Bench's generic
+landing page alone.
+
+BriskSeed asks when outcomes from earlier approximate-nearest-neighbor searches
+remain useful as seeds after inserts, deletes, and workload drift. The mechanism
+retrieves a bounded exact or semantic seed, expands it through the native ANN
+backend, validates the candidate, and falls back to the same backend when the
+seed is stale or unhelpful. Its contribution boundary is the
+**reuse--validate--refresh decision over historical search state**. CANDOR-Bench
+supplies the dynamic workload and measurement framework; it is a carrier and
+baseline, not the BriskSeed mechanism contribution.
+
+## What is already present
+
+- The [`streamseed` plugin](plugins/streamseed/README.md) contains the standalone
+  Python seam and C++ StreamSeed-Core used for seed-guided search.
+- The branch contains dynamic-ANN runbooks, backend integrations, figures, and
+  historical summary tables for SIFT, SIFT10M, and MSong, including repeated
+  on/off studies and both favorable and unfavorable backend cells.
+- The [advisor claim-boundary paper](paper/advisor_review/main.tex) freezes the
+  scientific question, strongest controls, correctness oracle, cost accounting,
+  and stopping rules without rewriting the student's implementation or results.
+- The existing BriskSeed slides and student manuscript remain historical
+  branch artifacts. They show substantial completed work, while their numerical
+  claims still require one immutable raw-to-figure provenance manifest before
+  paper promotion.
+
+The next owner deliverable is evidence closure rather than a restart: bind the
+exact branch/submodule pins, datasets and ordered update/query streams, backend
+parameters, hardware/NUMA identity, raw rows, summary CSVs, and figures into one
+reviewable manifest. The matched paper comparison must charge seed lookup,
+validation, fallback, writeback, eviction, and memory, and include the strongest
+native backend, exact-result caching, periodic rebuild, and an oracle selector.
+If the gain disappears after those costs or under a second drift/backend family,
+that is a bounded negative regime for seed reuse, not evidence that the broader
+CANDOR benchmark or all historical-state reuse is invalid.
+
+The remainder of this README documents the shared CANDOR-Bench carrier.
+
+---
+
 <div align="center">
 
 # 🚀 SAGE-DB-Bench
