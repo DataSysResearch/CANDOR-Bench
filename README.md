@@ -17,6 +17,18 @@
 
 ---
 
+## Publication
+
+**BriskSeed: Online History-Guided Reuse for Accelerating Dynamic Approximate
+Nearest Neighbor Search** has been accepted to **IEEE ICDE 2027**.
+
+The accepted work is carried by this `BriskSeed` branch. Camera-ready
+bibliographic details and the final artifact pointer will be added when they
+are available; the acceptance status does not by itself change the scope or
+provenance requirements of the existing experiment artifacts.
+
+---
+
 ## ✨ 功能概览
 
 <table>
